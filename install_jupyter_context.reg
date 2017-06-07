@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Open Jupyter]
+@="Open with Jupyter"
+"Icon"="C:\\scripts\\jupyter.ico"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Open Jupyter\command]
+@="\"C:\\scripts\\open-in-jupyter.bat\" \"%V\""
+
+
+[HKEY_CLASSES_ROOT\Directory\shell\Open Jupyter]
+@="Open with Jupyter"
+"Icon"="C:\\scripts\\jupyter.ico"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Open Jupyter\command]
+@="\"C:\\scripts\\open-in-jupyter.bat\" \"%1\""
