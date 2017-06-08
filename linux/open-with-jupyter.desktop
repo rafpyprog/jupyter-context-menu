@@ -1,0 +1,16 @@
+[Desktop Entry]
+Type=Action
+TargetLocation=true
+
+Name=Open with Jupyter
+Name[pt]=Abrir no Jupyter
+Name[es]=Abrir en Jupyter
+
+Profiles=open-jupyter;
+
+[X-Action-Profile open-jupyter]
+Name=open-jupyter
+ExecutionMode=Terminal
+Exec=/home/rafael/Documentos/scripts/open-with-jupyter.sh %f
+
+
