@@ -11,6 +11,6 @@ Profiles=open-jupyter;
 [X-Action-Profile open-jupyter]
 Name=open-jupyter
 ExecutionMode=Terminal
-Exec=/home/rafael/Documentos/scripts/open-with-jupyter.sh %f
+Exec=gnome-terminal --working-directory %f -e "jupyter notebook"
 
 
